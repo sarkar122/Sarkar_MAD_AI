@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     Button button1,button2,button3,button4;
     public void load(View view){
         Button buttonClicked=(Button)view;
-        if(buttonClicked.getTag().toString().equals(correctButton+"")){
+        if(buttonClicked.getTag().toString().equals(correctButton-"")){
             score[matchCounter++]=1;
         }else{
             score[matchCounter++]=0;
