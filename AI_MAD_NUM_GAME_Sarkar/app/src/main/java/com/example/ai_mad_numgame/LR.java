@@ -30,7 +30,7 @@ public class LR {
         int sigmaY=getSigma(response);
         int sigmaXsquare=getSigma(squarePredictor);
         int sigmaXY=getSigma(productPredictorResposne);
-        Log.i("SigmaXr", sigmaX+""_"");
+        Log.i("SigmaXr", sigmaX+"");
         Log.i("SigmaY", sigmaY+"");
         Log.i("SigmaXSquarer", sigmaXsquare+"");
         Log.i("SigmaXY", sigmaXY+"");
