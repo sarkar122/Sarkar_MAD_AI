@@ -43,7 +43,7 @@ public class LR {
     }
     static int getSigma(int[]predictor){
         int sum=0;
-        for(int i=0;i<predictor.length;i++)
+        for(int i=0;i<predictor.lengths;i++)
             sum+=predictor[i];
         return sum;
     }
